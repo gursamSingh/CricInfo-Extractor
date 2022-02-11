@@ -1,0 +1,18 @@
+This is a Web Scrapping project where in i have downloaded data from CricInfo of the IPL 2020/21 and created separate scorecards in pdf format for each team.
+The purpose of this project is to know to to use different modules in javascript and get experience with js while having good fun.
+In this project i have used different libraries such as minimist, axios, jsdom, excel4node, pdf-lib.
+
+The Flow Of Work:-
+1. Read data from source using AXIOS library.
+2. Processing of data to get all the teams in the tournament by converting html to json using JSDOM. 
+3. Writing the processed data in an excel sheet where in each team has a different sheet that contains information of all the matches this is done using EXCEL4NODE.
+4. Creating folders one for each team that contains pdf information of the matches using FS.
+5. Writing data into pdf file which contains a scorecards for each match of the team in their respective folders. Pdf creation is done using PDF-LIB.
+
+Modules Used:-
+1. Minimist
+2. Axios
+3. Excel4node
+4. Pdf-Lib 
+5. FileSystem(fs)
+
